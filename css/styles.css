@@ -1,0 +1,183 @@
+body {
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+header {
+  background: #000;
+  height: 100px;
+}
+
+.container {
+    padding: 60px 0;
+    position: relative;
+}
+
+h3, h5 {
+  color: #333;
+  text-align: center;
+}
+
+/*Banner*/
+.banner {
+  background: url('../img/banner.jpg');
+  height: 600px;
+  background-size: cover;
+  background-position: center;
+}
+.overlay {
+  height: 600px;
+  background-color: rgba(60, 202, 241, .6);
+}
+.banner h1 {
+  color: #fff;
+  font-size: 40px;
+  margin-top:30%;
+}
+.banner h2 {
+  color: #fff;
+  font-size: 20px;
+}
+.button-info {
+  display: block;
+  width: 250px;
+  background: #000;
+  border-radius: 3px;
+  text-align: center;
+  padding: 15px;
+  color: #fff;
+  margin-top: 40px;
+  font-size: 20px;
+  transition-duration: 1s;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+.button-info:hover {
+  background: #333;
+  color: #fff;
+}
+/*END Banner*/
+
+/*Description*/
+.description {
+  background: #eee;
+  height: 600px;
+}
+.description h3 {
+  font-size: 35px;
+}
+.description h5 {
+  margin-top: 20px;
+  font-size: 20px;
+}
+/*END Description*/
+
+/*Profile*/
+.profile h3 {
+  font-size: 35px;
+}
+
+.profile img {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.profile h4 {
+  font-size: 25px;
+  text-align: center;
+}
+/*END Profile*/
+
+/*CTA*/
+.cta {
+  background-color: rgb(60, 202, 241);
+}
+.cta h3 {
+  color: #fff;
+}
+/*END CTA*/
+
+/*Partners*/
+.partners img {
+  display: inline-block;
+  margin-left: 25px;
+}
+/*END Partners*/
+
+/*Contact*/
+.contact {
+  background: #eee;
+}
+
+.contact h5 {
+  text-align: left;
+}
+.contact p {
+  text-align: left;
+}
+/*END Contact*/
+
+/*Form*/
+
+input {
+  width: 300px;
+  height: 35px;
+  margin-bottom: 15px;
+  padding: 0 20px;
+  font-size: 14px;
+  border-radius: 3px;
+}
+.enviar {
+  width: 100px;
+  height: 40px;
+  text-align: center;
+  background: #eee;
+}
+/*END Form*/
+
+footer {
+  background: #000;
+  height: 100px;
+}
+
+
+@media (min-width: 600px) {
+  .banner h1 {font-size: 90px; margin-top:5%;}
+}
+
+@media (min-width: 600px) {
+  .banner h2 {font-size: 40px;}
+}
+
+@media (min-width: 600px) {
+.description {height: 400px;}
+}
+
+@media (min-width: 600px) {
+.profile h4 {
+  font-size: 25px;
+  position: absolute;
+  text-align: center;
+  top: 70%}
+}
+
+@media (min-width: 600px) {
+.map {
+  position: relative;
+  float: right;
+  top: -300px;}
+}
+
+@media (min-width: 600px) {
+form {
+  position: absolute;
+  top: -500px;
+}
+
+@media (min-width: 600px) {
+.form .container {
+  height: 0;
+  padding: 0;}
+}
